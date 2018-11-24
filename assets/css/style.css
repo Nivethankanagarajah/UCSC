@@ -429,21 +429,24 @@ margin:10px;
 display:block!important;
 padding-top:10px!important;
   }
+.col{
+    color:#ECB200;
+}
 /********************* footer_main_end ****************/
 
 /********************* footer ****************/
-#footer{ 
-    background-color:#000000;
+#footer{
+    background-color:#003366;
 	padding-top:10px;
 	padding-bottom:10px;
     }
 .footer_1 p{ 
 padding-top:10px;
-color:#CECFD5;
+    color:#ECB200;
 font-size:16px;
     }
-.footer_1 p a{ 
-color:#CECFD5;
+.footer_1 p a{
+    color:#ECB200;
     }
 .footer_1 p a:hover{ 
 color:#FFFFFF;
@@ -747,7 +750,7 @@ margin:10px;
  color:#0066CC;  
    }
 .campus_4 h2 a:hover{ 
-color:#ECB200; 
+color:#ECB200;
    }
 .campus_5 i{ 
 padding-top:16px;
@@ -1308,7 +1311,7 @@ width:100%;
  }
 .footer_main_1 h4 {
 font-size: 16px;
-    color: #bb8844;
+
 }
 .footer_main_1 h5 {
 font-size: 11px;
@@ -1387,6 +1390,7 @@ font-size: 14px;
 }
 .footer_main_1 h4 {
 font-size: 16px;
+    color: #bb8844;
 }
 .footer_main_1 img{ 
 width:100%;
@@ -1414,6 +1418,7 @@ width:10%;
 font-size: 12px;
 margin:0px;
 }
+
 }
 
 
