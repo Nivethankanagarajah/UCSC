@@ -92,7 +92,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
 			    <li class="active_1"><a href="<?php echo base_url()."assets/";?>index.html">Home</a></li>
-                <li><a href="<?php echo base_url()."assets/";?>"blog.html">Blog</a></li>
+                <li><a href="<?php echo base_url()."assets/";?>"blog.html">ucsc</a></li>
 				<li><a href="<?php echo base_url()."assets/";?>"details.html">Details</a></li>
 				<li><a href="<?php echo base_url()."assets/";?>"pages.html">Pages</a></li>
 				<li><a href="<?php echo base_url()."assets/";?>"contact.html">Contact</a></li>
