@@ -149,7 +149,7 @@ margin:0;
 padding-left:15px; 
   }
 .header_inner_1 li{ 
- font-size:40px;
+ font-size:30px;
  font-weight:bold;
  display:inline;
  color: #07416a;
@@ -1308,6 +1308,7 @@ width:100%;
  }
 .footer_main_1 h4 {
 font-size: 16px;
+    color: #bb8844;
 }
 .footer_main_1 h5 {
 font-size: 11px;
