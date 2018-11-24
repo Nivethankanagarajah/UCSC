@@ -31,7 +31,7 @@
                         <div class="col-sm-5">
                             <div align="right" class="header_top_2">
                                 <ul>
-                                    <li><a href="<?php echo base_url()."assets/";?>login.html">SIGN IN</a></li>
+                                    <li><a href="<?php echo base_url()."assets/";?>login.php">SIGN IN</a></li>
                                     <li><a href="<?php echo base_url()."assets/";?>login.html">SIGN UP</a></li>
                                 </ul>
                             </div>
@@ -77,9 +77,9 @@
                             <!-- Collect the nav links, forms, and other content for toggling -->
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul class="nav navbar-nav">
-                                    <li class="active_1"><a href="<?php echo base_url()."assets/";?>index.html">HOME</a></li>
-                                    <li><a href="<?php echo base_url()."assets/";?>scholarships.html">SCHOLARSHIPS</a></li>
-                                    <li><a href="<?php echo base_url()."assets/";?>forum.html">FORUM</a></li>
+                                    <li class="active_1"><a href="<?php echo base_url()."assets/";?>index.php">HOME</a></li>
+                                    <li><a href="<?php echo base_url()."assets/";?>scholarships.php">SCHOLARSHIPS</a></li>
+                                    <li><a href="<?php echo base_url()."assets/";?>forum.php">FORUM</a></li>
 
                                 </ul>
                             </div>

@@ -31,8 +31,8 @@
 						<div class="col-sm-5">
 							<div align="right" class="header_top_2">
 								<ul>
-									<li><a href="login.html">SIGN IN</a></li>
-									<li><a href="login.html">SIGN UP</a></li>
+									<li><a href="login.php">SIGN IN</a></li>
+									<li><a href="login.php">SIGN UP</a></li>
 								</ul>
 							</div>
 
@@ -77,9 +77,9 @@
 							<!-- Collect the nav links, forms, and other content for toggling -->
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 								<ul class="nav navbar-nav">
-									<li><a href="index.html">HOME</a></li>
-									<li><a href="scholarships.html">SCHOLARSHIPS</a></li>
-									<li class="active_1"><a href="forum.html">FORUM</a></li>
+									<li><a href="index.php">HOME</a></li>
+									<li><a href="scholarships.php">SCHOLARSHIPS</a></li>
+									<li class="active_1"><a href="forum.php">FORUM</a></li>
 
 								</ul>
 							</div>
@@ -311,107 +311,8 @@ Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdi
   </div>
  </div>
 </section>
-<section id="footer_main">
- <div class="container">
-  <div class="row">
-   <div class="col-sm-12">
-    <div class="col-sm-3">
-	 <div class="footer_main_1">
-	  <h4>Curabitursodales</h4>
-	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odionec odio <span class="k_2">Praesent libero.Sed cursus ante</span>.</p>
-	 </div>
-	 <div class="footer_main_1">
-	  <h4>Sed Dignissim</h4>
-	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odionec odio <span class="k_2">Praesent libero.Sed cursus ante</span>.</p>
-	 </div>
-	 <div class="footer_main_1">
-	  <h4>Conubia Nostra</h4>
-	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odionec odio <span class="k_2">Praesent libero.Sed cursus ante</span>.</p>
-	 </div>
-	</div>
-	<div class="col-sm-3">
-	 <div class="footer_main_1">
-	  <h4>Consectetur Adipiscing</h4>
-       <img src="img/13.jpg">
-	   <h5>Dignissim Lacinia Nunc <span class="k_2">Conubia Nostra.</span></h5>
-	 </div>
-	</div>
-	<div class="col-sm-3">
-	 <div class="footer_main_1">
-	  <h4>Integer Nec Odionec?</h4>
-	   <ul>
-	       <li><i class="fa fa-dot-circle-o"></i> Nibh Elementum Imperdiet</li>
-		   <li><span class="k_2"><i class="fa fa-dot-circle-o"></i> Tellus Sed Augue Semper</span></li>
-		   <li><span class="k_2"><i class="fa fa-dot-circle-o"></i> Curabitursodales Ligula In Libero</span></li>
-		   <li><i class="fa fa-dot-circle-o"></i> Sociosqu Ad Torquent Per</li>
-		   <li><i class="fa fa-dot-circle-o"></i> Fusce Nec Tellus Sed Augue</li>
-		   <li><i class="fa fa-dot-circle-o"></i> Duis Sagittis Ipsum.</li>
-		   <li><i class="fa fa-dot-circle-o"></i> Sed Cursus Ante Dapibus</li>
-		   <li><i class="fa fa-dot-circle-o"></i> Nulla Quis Sem</li>
-		   <li><span class="k_2"><i class="fa fa-dot-circle-o"></i> Elementum Imperdiet</span></li>
-		   <li><span class="k_2"><i class="fa fa-dot-circle-o"></i> Sed Dignissim Lacinia Nunc</span></li>
-	   </ul>
-	 </div>
-	</div>
-	<div class="col-sm-3">
-	 <div class="footer_main_1">
-	  <h4>Fusce Nec Tellus</h4>
-	  <p> Class aptent taciti sociosqu ad torquent per conubia nostra, per inceptos . Curabitursodales:</p>
-	  <div class="progress progress-striped active">
-	    <div class="progress-bar" style="width:30%">
-		 <span class="sr-only">30%compelte</span>
-		</div>
-	  </div>
-	  <div class="progress progress-striped active">
-	    <div class="progress-bar" style="width:40%">
-		 <span class="sr-only">50%compelte</span>
-		</div>
-	  </div>
-	  <div class="progress progress-striped active">
-	    <div class="progress-bar" style="width:50%">
-		 <span class="sr-only">40%compelte</span>
-		</div>
-	  </div>
-	  <div class="progress progress-striped active">
-	    <div class="progress-bar" style="width:70%">
-		 <span class="sr-only">70%compelte</span>
-		</div>
-	  </div>
-	  <h5>Sed Cursus Ante <span class="k_2"> Nulla Quis Sem At Nibh</span></h5>
-	 </div>
-	</div>
-   </div> 
-  </div>
- </div>
-</section>
-<section id="footer">
- <div class="container">
-  <div class="row">
-   <div class="col-sm-12 padding_all">
-    <div class="col-sm-6 padding_all">
-	 <div class="footer_1">
-	  <p class="text-center">© 2013 Your Website Name. All Rights Reserved. Design by<a href="http://www.TemplateOnWeb.com"> Template On Web</a> </p>
-	 </div>
-	</div>
-	<div class="col-sm-3"></div>
-	<div class="col-sm-3">
-	 <div class="footer_inner clearfix">
-	  <div class="header_top_1">
-	  <ul>
-		  <li><span class="p_2"><i class="fa fa-google-plus"></i></span></li>
-		  <li><span class="p_3"><i class="fa fa-twitter"></i></span></li>
-		  <li><span class="p_4"><i class="fa fa-facebook"></i></span></li>
-		  <li><span class="p_5"><i class="fa fa-youtube-play"></i></span></li>
-		  <li><span class="p_6"><i class="fa fa-linkedin"></i></span></li>
-		  <li><span class="p_7"><i class="fa fa-wifi"></i></span></li>
-	  </ul>
-	 </div>
-	 </div>
-	</div>
-   </div>
-  </div>
- </div>
-</section>
+
+<?php include 'footer.php'?>
 <script src="js/classie.js"></script>
 <script src="js/cbpAnimatedHeader.js"></script>
 <script type="text/javascript">

@@ -18,68 +18,14 @@
   </head>
 
 <body>
-<section id="header_top">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12">
-				<div class="col-sm-3">
+<?php include 'header.php'?>
 
-				</div>
-				<div class="col-sm-9">
-					<div class="col-sm-12">
-						<div class="col-sm-7"></div>
-						<div class="col-sm-5">
-							<div align="right" class="header_top_2">
-								<ul>
-									<li><a href="login.html">SIGN IN</a></li>
-									<li><a href="login.html">SIGN UP</a></li>
-								</ul>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<section id="header_inner">
-	<div class="container">
-		<div class="header_inner_1">
-			<div >
-				<img align="left" height="150px" width="150px" src="img/ucsc.png">
-			</div>
-			<br><br>
-			<ul>
-				<center>
-					<li> UNIVERSITY OF COLOMBO SCHOOL OF COMPUTING </li> <br>
-					<li> STUDENT WELFARE SYSTEM </li>
-				</center>
-			</ul>
-		</div>
-		<div class="col-sm-2"></div>
-	</div>
-</section>
-<section id="header">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12">
-				<div class="col-sm-2"></div>
-				<div class="col-sm-8">
-					<div class="header_1">
-						<nav class="navbar navbar-default" role="navigation">
-							<!-- Brand and toggle get grouped for better mobile display -->
-							<div class="navbar-header">
-								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-									<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-								</button>
-							</div>
 							<!-- Collect the nav links, forms, and other content for toggling -->
 							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 								<ul class="nav navbar-nav">
-									<li><a href="index.html">HOME</a></li>
-									<li class="active_1"><a href="scholarships.html">SCHOLARSHIPS</a></li>
-									<li><a href="forum.html">FORUM</a></li>
+									<li><a href="index.php">HOME</a></li>
+									<li class="active_1"><a href="scholarships.php">SCHOLARSHIPS</a></li>
+									<li><a href="forum.php">FORUM</a></li>
 
 								</ul>
 							</div>
@@ -100,7 +46,7 @@
 	  <h2>Sed Dignissim Lacinia Nunc <span class="well_1">| Curabitursodales Ligula</span></h2>
 	 </div>
 	 <div class="blog_2">
-	  <div class="ih-item square effect10 left_to_right"><a href="forum.html">
+	  <div class="ih-item square effect10 left_to_right"><a href="forum.php">
                       <div class="img"><img src="img/14.jpg" alt="img"></div>
                       <div class="info">
                         <h3>Lorem Ipsum Dolor</h3>
@@ -111,15 +57,15 @@ Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdi
 !</h5>
 	 </div>
 	 <div class="blog_3">
-	  <h2><a href="forum.html">Taciti Sociosqu</a></h2>
+	  <h2><a href="forum.php">Taciti Sociosqu</a></h2>
 	   <ul>
 	       <li><span class="visible_2"><i class="fa fa-envira"></i></span></li>
 		   <li><i class="fa fa-dot-circle-o"></i></li>
-		    <li><span class="visible_1"><a href="forum.html">Nulla Quis Sem</a></span></li>
+		    <li><span class="visible_1"><a href="forum.php">Nulla Quis Sem</a></span></li>
 			<li><i class="fa fa-dot-circle-o"></i></li>
 		    <li>Sed Dignissim	</li>
-			<li><span class="visible_3"><a href="forum.html">Lacinia </a></span></li>
-			<li><span class="visible_4"><a href="forum.html">Fusce </a></span></li>
+			<li><span class="visible_3"><a href="forum.php">Lacinia </a></span></li>
+			<li><span class="visible_4"><a href="forum.php">Fusce </a></span></li>
 			<li><i class="fa fa-dot-circle-o"></i></li>
 		    <li>Praesent Libero</li>
 	   </ul>
@@ -135,7 +81,7 @@ Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdi
 	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odionec odio. Praesent libero. 
 Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper port.</p>
 		<p>Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
- Class aptent taciti Sed dignissim lacinia nunc.<br/><a href="forum.html">| Read More</a></p>
+ Class aptent taciti Sed dignissim lacinia nunc.<br/><a href="forum.php">| Read More</a></p>
 	   </div>
 	  </div>
 	 </div>
@@ -145,15 +91,15 @@ Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdi
 	  </div>
 	 </div>
 	 <div class="blog_3">
-	  <h2><a href="forum.html">Lorem Ipsum Dolor Sit Amet</a></h2>
+	  <h2><a href="forum.php">Lorem Ipsum Dolor Sit Amet</a></h2>
 	   <ul>
 	       <li><span class="visible_2"><i class="fa fa-envira"></i></span></li>
 		   <li><i class="fa fa-dot-circle-o"></i></li>
-		    <li><span class="visible_1"><a href="forum.html">Vestibulum Lacinia</a></span></li>
+		    <li><span class="visible_1"><a href="forum.php">Vestibulum Lacinia</a></span></li>
 			<li><i class="fa fa-dot-circle-o"></i></li>
 		    <li>Augue Semper	</li>
-			<li><span class="visible_3"><a href="forum.html">Nulla Quis Sem</a></span></li>
-			<li><span class="visible_4"><a href="forum.html">Nec Odionec</a></span></li>
+			<li><span class="visible_3"><a href="forum.php">Nulla Quis Sem</a></span></li>
+			<li><span class="visible_4"><a href="forum.php">Nec Odionec</a></span></li>
 			<li><i class="fa fa-dot-circle-o"></i></li>
 		    <li>Conubia Nostra</li>
 	   </ul>
@@ -169,7 +115,7 @@ Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdi
 	   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odionec odio. Praesent libero. 
 Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper port.</p>
 		<p>Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
- Class aptent taciti Sed dignissim lacinia nunc.<br/><a href="forum.html">| Read More</a></p>
+ Class aptent taciti Sed dignissim lacinia nunc.<br/><a href="forum.php">| Read More</a></p>
 	   </div>
 	  </div>
 	 </div>
@@ -179,15 +125,15 @@ Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdi
 	  </div>
 	 </div>
 	 <div class="blog_3">
-	  <h2><a href="forum.html">Consectetur Adipiscing Elit. Integer</a></h2>
+	  <h2><a href="forum.php">Consectetur Adipiscing Elit. Integer</a></h2>
 	   <ul>
 	       <li><span class="visible_2"><i class="fa fa-envira"></i></span></li>
 		   <li><i class="fa fa-dot-circle-o"></i></li>
-		    <li><span class="visible_1"><a href="forum.html">Nulla Quis Sem</a></span></li>
+		    <li><span class="visible_1"><a href="forum.php">Nulla Quis Sem</a></span></li>
 			<li><i class="fa fa-dot-circle-o"></i></li>
 		    <li>Duis Sagittis	</li>
-			<li><span class="visible_3"><a href="forum.html">Fusce Nec</a></span></li>
-			<li><span class="visible_4"><a href="forum.html">Ligula</a></span></li>
+			<li><span class="visible_3"><a href="forum.php">Fusce Nec</a></span></li>
+			<li><span class="visible_4"><a href="forum.php">Ligula</a></span></li>
 			<li><i class="fa fa-dot-circle-o"></i></li>
 		    <li>Nulla Quis Sem At Nibh</li>
 	   </ul>
@@ -203,7 +149,7 @@ Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdi
 	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odionec odio. Praesent libero. 
 Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper port.</p>
 		<p>Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
- Class aptent taciti Sed dignissim lacinia nunc.<br/><a href="forum.html">| Read More</a></p>
+ Class aptent taciti Sed dignissim lacinia nunc.<br/><a href="forum.php">| Read More</a></p>
 	   </div>
 	  </div>
 	 </div>
@@ -217,9 +163,9 @@ Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdi
 	   <ul>
 	       <li>Pages:</li>
 		   <li><span class="wobble_1">1</span></li>
-		   <li><a href="forum.html">2</a></li>
-		   <li><a href="forum.html">3</a></li>
-		   <li><a href="forum.html">>></a></li>
+		   <li><a href="forum.php">2</a></li>
+		   <li><a href="forum.php">3</a></li>
+		   <li><a href="forum.php">>></a></li>
 	   </ul>
 	  </div>
 	 </div>
@@ -233,10 +179,10 @@ Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdi
 	 <div class="campus_2">
 	  <h2>Dignissim</h2>
 	  <ul>
-	      <li><a href="forum.html"><img src="img/19.jpg"></a></li>
-		  <li><a href="forum.html"><img src="img/20.jpg"></a></li>
-		  <li><a href="forum.html"><img src="img/21.jpg"></a></li>
-		  <li><a href="forum.html"><img src="img/22.jpg"></a></li>
+	      <li><a href="forum.php"><img src="img/19.jpg"></a></li>
+		  <li><a href="forum.php"><img src="img/20.jpg"></a></li>
+		  <li><a href="forum.php"><img src="img/21.jpg"></a></li>
+		  <li><a href="forum.php"><img src="img/22.jpg"></a></li>
 	  </ul>
 	 </div>
 	 <div class="campus_3">
@@ -245,7 +191,7 @@ Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdi
 	 <div class="col-sm-12 padding_all border_bottom_2">
 	  <div class="col-sm-10 padding_all">
 	   <div class="campus_4">
-	    <h2><a href="forum.html">#Torquent</a></h2>
+	    <h2><a href="forum.php">#Torquent</a></h2>
 	   </div>
 	  </div>
 	  <div class="col-sm-2">
@@ -264,8 +210,8 @@ Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdi
                         <h3 class="panel-title"><span class="glyphicon glyphicon-comment"></span> Nisi - Massa</h3>
                     </div>
                     <div class="col-md-4 col-xs-4" style="text-align: right;">
-                        <a href="forum.html"><span id="minim_chat_window" class="glyphicon glyphicon-minus icon_minim"></span></a>
-                        <a href="forum.html"><span class="glyphicon glyphicon-remove icon_close" data-id="chat_window_1"></span></a>                    </div>
+                        <a href="forum.php"><span id="minim_chat_window" class="glyphicon glyphicon-minus icon_minim"></span></a>
+                        <a href="forum.php"><span class="glyphicon glyphicon-remove icon_close" data-id="chat_window_1"></span></a>                    </div>
                 </div>
                 <div class="panel-body msg_container_base">
                     <div class="row msg_container base_sent">
@@ -358,11 +304,11 @@ Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdi
             <span class="sr-only">Toggle Dropdown</span>
         </button>
         <ul class="dropdown-menu" role="menu">
-            <li><a href="forum.html" id="new_chat"><span class="glyphicon glyphicon-plus"></span> Conubia</a></li>
-            <li><a href="forum.html"><span class="glyphicon glyphicon-list"></span>Sed Augue</a></li>
-            <li><a href="forum.html"><span class="glyphicon glyphicon-remove"></span>Semper Porta</a></li>
+            <li><a href="forum.php" id="new_chat"><span class="glyphicon glyphicon-plus"></span> Conubia</a></li>
+            <li><a href="forum.php"><span class="glyphicon glyphicon-list"></span>Sed Augue</a></li>
+            <li><a href="forum.php"><span class="glyphicon glyphicon-remove"></span>Semper Porta</a></li>
             <li class="divider"></li>
-            <li><a href="forum.html"><span class="glyphicon glyphicon-eye-close"></span>Torquent</a></li>
+            <li><a href="forum.php"><span class="glyphicon glyphicon-eye-close"></span>Torquent</a></li>
         </ul>
     </div>
 	  </div>
@@ -373,107 +319,7 @@ Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdi
   </div>
  </div>
 </section>
-<section id="footer_main">
- <div class="container">
-  <div class="row">
-   <div class="col-sm-12">
-    <div class="col-sm-3">
-	 <div class="footer_main_1">
-	  <h4>Curabitursodales</h4>
-	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odionec odio <span class="k_2">Praesent libero.Sed cursus ante</span>.</p>
-	 </div>
-	 <div class="footer_main_1">
-	  <h4>Sed Dignissim</h4>
-	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odionec odio <span class="k_2">Praesent libero.Sed cursus ante</span>.</p>
-	 </div>
-	 <div class="footer_main_1">
-	  <h4>Conubia Nostra</h4>
-	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odionec odio <span class="k_2">Praesent libero.Sed cursus ante</span>.</p>
-	 </div>
-	</div>
-	<div class="col-sm-3">
-	 <div class="footer_main_1">
-	  <h4>Consectetur Adipiscing</h4>
-       <img src="img/13.jpg">
-	   <h5>Dignissim Lacinia Nunc <span class="k_2">Conubia Nostra.</span></h5>
-	 </div>
-	</div>
-	<div class="col-sm-3">
-	 <div class="footer_main_1">
-	  <h4>Integer Nec Odionec?</h4>
-	   <ul>
-	       <li><i class="fa fa-dot-circle-o"></i> Nibh Elementum Imperdiet</li>
-		   <li><span class="k_2"><i class="fa fa-dot-circle-o"></i> Tellus Sed Augue Semper</span></li>
-		   <li><span class="k_2"><i class="fa fa-dot-circle-o"></i> Curabitursodales Ligula In Libero</span></li>
-		   <li><i class="fa fa-dot-circle-o"></i> Sociosqu Ad Torquent Per</li>
-		   <li><i class="fa fa-dot-circle-o"></i> Fusce Nec Tellus Sed Augue</li>
-		   <li><i class="fa fa-dot-circle-o"></i> Duis Sagittis Ipsum.</li>
-		   <li><i class="fa fa-dot-circle-o"></i> Sed Cursus Ante Dapibus</li>
-		   <li><i class="fa fa-dot-circle-o"></i> Nulla Quis Sem</li>
-		   <li><span class="k_2"><i class="fa fa-dot-circle-o"></i> Elementum Imperdiet</span></li>
-		   <li><span class="k_2"><i class="fa fa-dot-circle-o"></i> Sed Dignissim Lacinia Nunc</span></li>
-	   </ul>
-	 </div>
-	</div>
-	<div class="col-sm-3">
-	 <div class="footer_main_1">
-	  <h4>Fusce Nec Tellus</h4>
-	  <p> Class aptent taciti sociosqu ad torquent per conubia nostra, per inceptos . Curabitursodales:</p>
-	  <div class="progress progress-striped active">
-	    <div class="progress-bar" style="width:30%">
-		 <span class="sr-only">30%compelte</span>
-		</div>
-	  </div>
-	  <div class="progress progress-striped active">
-	    <div class="progress-bar" style="width:40%">
-		 <span class="sr-only">50%compelte</span>
-		</div>
-	  </div>
-	  <div class="progress progress-striped active">
-	    <div class="progress-bar" style="width:50%">
-		 <span class="sr-only">40%compelte</span>
-		</div>
-	  </div>
-	  <div class="progress progress-striped active">
-	    <div class="progress-bar" style="width:70%">
-		 <span class="sr-only">70%compelte</span>
-		</div>
-	  </div>
-	  <h5>Sed Cursus Ante <span class="k_2"> Nulla Quis Sem At Nibh</span></h5>
-	 </div>
-	</div>
-   </div> 
-  </div>
- </div>
-</section>
-<section id="footer">
- <div class="container">
-  <div class="row">
-   <div class="col-sm-12 padding_all">
-    <div class="col-sm-6 padding_all">
-	 <div class="footer_1">
-	  <p class="text-center">© 2013 Your Website Name. All Rights Reserved. Design by<a href="http://www.TemplateOnWeb.com"> Template On Web</a> </p>
-	 </div>
-	</div>
-	<div class="col-sm-3"></div>
-	<div class="col-sm-3">
-	 <div class="footer_inner clearfix">
-	  <div class="header_top_1">
-	  <ul>
-		  <li><span class="p_2"><i class="fa fa-google-plus"></i></span></li>
-		  <li><span class="p_3"><i class="fa fa-twitter"></i></span></li>
-		  <li><span class="p_4"><i class="fa fa-facebook"></i></span></li>
-		  <li><span class="p_5"><i class="fa fa-youtube-play"></i></span></li>
-		  <li><span class="p_6"><i class="fa fa-linkedin"></i></span></li>
-		  <li><span class="p_7"><i class="fa fa-wifi"></i></span></li>
-	  </ul>
-	 </div>
-	 </div>
-	</div>
-   </div>
-  </div>
- </div>
-</section>
+<?php include 'footer.php'?>
 <script src="js/classie.js"></script>
 <script src="js/cbpAnimatedHeader.js"></script>
 <script type="text/javascript">
