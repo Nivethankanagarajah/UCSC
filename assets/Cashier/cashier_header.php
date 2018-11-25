@@ -15,8 +15,7 @@
                         <div class="col-sm-5">
                             <div align="right" class="header_top_2">
                                 <ul>
-                                    <li><a href="login.php">SIGN IN</a></li>
-                                    <li><a href="login.php">SIGN UP</a></li>
+                                    <!-- name of the user here (get from database)-->
                                 </ul>
                             </div>
 
@@ -31,7 +30,7 @@
     <div class="container">
         <div class="header_inner_1">
             <div >
-                <a href="index.php"><img align="left" height="150px" width="150px" src="img/ucsc.png"></a>
+                <img align="left" height="150px" width="150px" src="../img/ucsc.png">
             </div>
             <br><br>
             <ul>
