@@ -61,35 +61,44 @@
 
 
 
+<h3 class="my-4 text-center" ><b>Reply</b></h3>
+<div class="container"style="padding-top: 30px" >
 
+    <div class="container" style="background-color: #b8b6d8; font-size: large">
 
-<div class="container">
-<h3 class="my-4 text-center" style="color: #002166">Reply</h3>
-<h4><?php echo $question['title'] ?></h4>
+<h4 style="padding: 10px"><b><?php echo $question['title'] ?></b></h4>
     <div>
-        <p> <?php echo $question['question']; ?> </p>
+        <p style="padding: 20px"> <?php echo $question['question']; ?> </p>
+    <strong> Asked by </strong><p ><?php echo $question['student_name']; ?> </p>
+        <p><?php echo $question['time'] ?></p>
+    </div>
+        <br>
     </div>
 
-    <small class="author"><strong> Asked by </strong><p style="color: black;"><?php echo $question['student_name']; ?> </p><p><?php echo $question['time'] ?></p></small>
-
-    <hr>
-
-<form method="post" action="<?php echo base_url('Forum/add_reply'); ?>"
+<form method="post" action="<?php echo base_url('index.php/Forum/add_reply'); ?>"
     <div class="form-group">
         <label for="txt_msg">Text your reply here</label>
         <textarea name="reply" class="form-control"  style="width: 100%; height: 150px;"></textarea>
 
         <label> Admin id</label>
         <input type="txt" class="form-control" name="a_id" style="width: 100px">
+
+        <label> Question id</label>
+        <input type="txt" class="form-control" name="q_id" style="width: 100px">
+
+        <br>
+        <input type="submit" class="btn btn-danger" >
+<!--        <a href="--><?php //echo base_url('index.php/Forum/view_forum')?><!--" class="btn btn-danger"><i class="fas fa-plus-circle"></i> Post Reply</a>-->
     </div>
+
+
+
 
 </form>
 
 
 
-<div class="text-right">
-    <a href="<?php echo base_url('index.php/Forum/view_forum')?>" class="btn btn-danger"><i class="fas fa-plus-circle"></i> Post Reply</a>
-</div>
+
 </div>
 </div>
 <br><br>

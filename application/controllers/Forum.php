@@ -13,7 +13,25 @@ public function view_forum() {
 
         $this->load->model('Modle_ques');
         $result['questions'] = $this->Modle_ques->get_question();
-        $result['replies'] = $this->Modle_ques->get_reply();
+        //$result['replies'] = $this->Modle_ques->get_reply();
+        $disArray=array();
+        $count=0;
+        foreach ($result['questions'] as $row){
+            $isPresent=false;
+            for($i=0;$i<count($disArray);$i++){
+                if($disArray[$i]->question_id==$row->question_id){
+                    $isPresent=true;
+                    break;
+                }
+            }
+            if(!$isPresent){
+                $disArray[$count]=$row;
+                $count++;
+            }
+        }
+
+        $result['id']=$disArray;
+
 
         if($result!=false) {
 
@@ -50,16 +68,23 @@ public function full_quest(){
 
 }
 
-public function add_reply(){
-
-    $this->load->model('Modle_ques');
-    $this->Modle_ques->insert_reply();
+public function add_question(){
+    $this->load->view('add_quest');
 }
 
-public function add_quest(){
+public function add_reply(){
+
+    echo "ok";
+    $this->load->model('Modle_ques');
+    $this->Modle_ques->insert_reply();
+    redirect(base_url('index.php/Forum/view_forum'));
+}
+
+public function add_new_quest(){
 
     $this->load->model('Modle_ques');
     $this->Modle_ques->insert_quest();
+    redirect(base_url('index.php/Forum/view_forum'));
 }
 
 

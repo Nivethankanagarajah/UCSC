@@ -66,27 +66,28 @@
 <div class="container">
 
 
-    <form method="post" action="<?php echo base_url('Forum/add_reply'); ?>"
+    <form method="post" action="<?php echo base_url('index.php/Forum/add_new_quest'); ?>"
     <div class="form-group">
 
         <label> Title</label>
-        <input type="txt" class="form-control" name="title" style="width: 100px">
+        <input type="txt" class="form-control" name="title" style="width: 100%">
 
         <label for="txt_msg">Add your question here</label>
-        <textarea name="quest" class="form-control"  style="width: 100%; height: 150px;"></textarea>
+        <textarea name="quest" class="form-control"  style="width: 100%; height: 200px;"></textarea>
 
         <label> Student id</label>
-        <input type="s_id" class="form-control" name="a_id" style="width: 100px">
+        <input type="txt" class="form-control" name="s_id" style="width: 100px">
 
         <label> Student name</label>
-        <input type="s_name" class="form-control" name="a_id" style="width: 100px">
+        <input type="txt" class="form-control" name="s_name" style="width: 100%">
+
+    <br>
+    <input type="submit" class="btn btn-danger" >
     </div>
 
     </form>
 
-    <div class="text-right">
-        <a href="<?php echo base_url('index.php/Forum/view_forum')?>" class="btn btn-danger"><i class="fas fa-plus-circle"></i> Post Reply</a>
-    </div>
+
 </div>
 
 <br><br>

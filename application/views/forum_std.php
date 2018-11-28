@@ -64,7 +64,7 @@
     <h1 class="my-4"> Ask your Question </h1>
 
     <div class="text-right">
-        <a href="<?php echo base_url('index.php/Forum/add_reply')?>" class="btn btn-danger"> ADD NEW QUESTION </a>
+        <a href="<?php echo base_url('index.php/Forum/add_question')?>" class="btn btn-danger"> ADD NEW QUESTION </a>
     </div>
 
     <br>
@@ -75,19 +75,19 @@
 
         if(!empty($questions)) {
 
-            foreach ($questions as $quest) {
+            foreach ($id as $quest) {
 
                 $qid=$quest->question_id;
                 echo '<div class="row">';
 
-                echo '<div class="my-4">';
+                echo '<div class="my-4" style="background-color: #b8b6d8; font-size: large">';
                 echo "<h2 style='text-underline: black'>";
-                echo "Question";
+                echo "<p style='padding: 10px'> Question </p>";
                 echo "</h2>";
-                echo '<h3>';
+                echo '<h3 style="padding: 10px">';
                 echo $quest->quest_title;
                 echo '</h3>';
-                echo "<p> $quest->question </p>";
+                echo "<p style='padding: 10px'> $quest->question </p>";
 
                 echo '<br>';
                 echo  "<p align='right'>By: $quest->student_name</p>";
@@ -95,20 +95,22 @@
                 echo "</div>";
                 echo "</div>";
                 echo "<br><hr>";
-                foreach ($replies as $reply){
-                    $rid=$reply->q_id;
+                foreach ($questions as $reply){
+
+                    $rid=$reply->question_id;
                     if($rid==$qid){
 
-                        echo '<div class="row">';
-                        echo '<div class="my-4 text-right">';
+                        echo '<div class="row" style="background-color: #e1e6ef">';
+                        echo '<div class="my-4 text-right"  style="padding: 20px; font-size: large">';
                         echo '<h3>';
                         echo 'Reply';
                         echo '</h3>';
                         echo $reply->answer;
                         echo '<br>';
-                        echo "<p>$reply->time</p>";
+                        echo "<p>$reply->a_time</p>";
                         echo '</div>';
                         echo '</div>';
+                        echo '<br>';
 
 
                     }
