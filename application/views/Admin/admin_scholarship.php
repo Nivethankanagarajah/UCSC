@@ -5,20 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Program</title>
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/style.css" rel="stylesheet">
+    <link href="../../../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../assets/css/style.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-    <link href="../css/animate.css" rel="stylesheet" type="text/css" media="all">
-    <link href="../css/ken-burns.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../../assets/css/animate.css" rel="stylesheet" type="text/css" media="all">
+    <link href="../../../assets/css/ken-burns.css" rel="stylesheet" type="text/css" media="all" />
     <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
 
-    <script src="../js/jquery-2.1.1.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="../../../assets/js/jquery-2.1.1.min.js"></script>
+    <script src="../../../assets/js/bootstrap.min.js"></script>
 
 </head>
 
 <body>
-<?php include 'admin_header.php'?>
+<?php include 'admin_header.php' ?>
 
 <!-- Collect the nav links, forms, and other content for toggling -->
 <section id="header">
@@ -50,13 +50,19 @@
         </div>
     </div>
 </section>
+<?php
+foreach ($records as $s){?>
 <section id="blog">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
 
+
+
+
+
                     <div class="blog_1">
-                        <h2>Sed Dignissim Lacinia Nunc <span class="well_1">| Curabitursodales Ligula</span></h2>
+                        <h2><?php echo $s['Scho_name']; ?><span class="well_1">| Curabitursodales Ligula</span></h2>
                     </div>
                     <div class="blog_2">
 
@@ -80,7 +86,8 @@
 
 
 </section>
-<?php include '../footer.php'?>
+<?php } ?>
+<?php include '../footer.php' ?>
 <script src="js/classie.js"></script>
 <script src="js/cbpAnimatedHeader.js"></script>
 <script type="text/javascript">

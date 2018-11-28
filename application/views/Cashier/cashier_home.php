@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>UCSC STUDENT WELFARE SYSTEM</title>
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/style.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css" />
-    <link href="../css/animate.css" rel="stylesheet" type="text/css" media="all">
-    <link href="../css/ken-burns.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/font-awesome.min.css" />
+    <link href="../../../assets/css/animate.css" rel="stylesheet" type="text/css" media="all">
+    <link href="../../../assets/css/ken-burns.css" rel="stylesheet" type="text/css" media="all" />
     <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
 
-    <script src="../js/jquery-2.1.1.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="../../../assets/js/jquery-2.1.1.min.js"></script>
+    <script src="../../../assets/js/bootstrap.min.js"></script>
 
 </head>
 
@@ -47,21 +47,21 @@
                     <!-- Wrapper-for-Slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active"><!-- First-Slide -->
-                            <img src="../img/2.jpg" alt="" class="img-responsive" />
+                            <img src="../../../assets/img/2.jpg" alt="" class="img-responsive" />
                             <div class="carousel-caption kb_caption kb_caption_right">
                                 <h3 data-animation="animated flipInX"> Dignissim Lacinia</h3>
                                 <h4 data-animation="animated flipInX">Lorem ipsum dolor sit </h4>
                             </div>
                         </div>
                         <div class="item"> <!-- Second-Slide -->
-                            <img src="../img/3.jpg" alt="" class="img-responsive" />
+                            <img src="../../../assets/img/3.jpg" alt="" class="img-responsive" />
                             <div class="carousel-caption kb_caption kb_caption_right">
                                 <h3 data-animation="animated fadeInDown">Sed Cursus Ante Dapibus</h3>
                                 <h4 data-animation="animated fadeInUp">At Nibh Elementum</h4>
                             </div>
                         </div>
                         <div class="item"><!-- Third-Slide -->
-                            <img src="../img/4.jpg" alt="" class="img-responsive"/>
+                            <img src="../../../assets/img/4.jpg" alt="" class="img-responsive"/>
                             <div class="carousel-caption kb_caption kb_caption_center">
                                 <h3 data-animation="animated fadeInLeft">Duis Sagittis Ipsum Praesent</h3>
                                 <h4 data-animation="animated flipInX"> Fusce nec tellus</h4>
@@ -79,7 +79,7 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-                <script src="../js/custom.js"></script>
+                <script src="../../../assets/js/custom.js"></script>
             </div>
         </div>
     </div>
@@ -135,21 +135,21 @@
                             <div class="col-sm-12">
                                 <div class="col-sm-4">
                                     <div class="middle_4">
-                                        <img src="../img/5.jpg" width="100%">
+                                        <img src="../../../assets/img/5.jpg" width="100%">
                                         <h4><a href="scholarships.php">Vestibulum Lacinia</a></h4>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odionec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla..</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-4">
                                     <div class="middle_4">
-                                        <img src="../img/6.jpg" width="100%">
+                                        <img src="../../../assets/img/6.jpg" width="100%">
                                         <h4><a href="scholarships.php">Elementum Imperdiet</a></h4>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odionec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla..</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-4">
                                     <div class="middle_4">
-                                        <img src="../img/7.jpg" width="100%">
+                                        <img src="../../../assets/img/7.jpg" width="100%">
                                         <h4><a href="scholarships.php">Dignissim Lacinia</a></h4>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odionec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla..</p>
                                     </div>
@@ -162,7 +162,7 @@
                             <div class="col-sm-12">
                                 <div class="col-sm-6">
                                     <div class="middle_5">
-                                        <img src="../img/8.jpg" width="100%">
+                                        <img src="../../../assets/img/8.jpg" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
@@ -187,7 +187,7 @@
                             <div class="col-sm-12">
                                 <div class="col-sm-6">
                                     <div class="middle_5">
-                                        <img src="../img/9.jpg" width="100%">
+                                        <img src="../../../assets/img/9.jpg" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
@@ -212,7 +212,7 @@
                             <div class="col-sm-12">
                                 <div class="col-sm-6">
                                     <div class="middle_5">
-                                        <img src="../img/10.jpg" width="100%">
+                                        <img src="../../../assets/img/10.jpg" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
@@ -237,7 +237,7 @@
                             <div class="col-sm-12">
                                 <div class="col-sm-6">
                                     <div class="middle_5">
-                                        <img src="../img/11.jpg" width="100%">
+                                        <img src="../../../assets/img/11.jpg" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
@@ -262,7 +262,7 @@
                             <div class="col-sm-12">
                                 <div class="col-sm-6">
                                     <div class="middle_5">
-                                        <img src="../img/12.jpg" width="100%">
+                                        <img src="../../../assets/img/12.jpg" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
@@ -289,7 +289,7 @@
     </div>
 </section>
 
-<?php include '../footer.php'?>
+<?php include '../footer.php' ?>
 
 
 </section>

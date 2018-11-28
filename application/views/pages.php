@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Program</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-	 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-	 <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
-	 <link href="css/ken-burns.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/css/style.css" rel="stylesheet">
+	 <link rel="stylesheet" type="text/css" href="../../assets/css/font-awesome.min.css" />
+	 <link href="../../assets/css/animate.css" rel="stylesheet" type="text/css" media="all">
+	 <link href="../../assets/css/ken-burns.css" rel="stylesheet" type="text/css" media="all" />
 	 <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
 
-   <script src="js/jquery-2.1.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+   <script src="../../assets/js/jquery-2.1.1.min.js"></script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
 
   </head>
 
@@ -46,7 +46,7 @@
 	   </ul>
 	 </div>
 	   <div class="header_top_3">
-	      <a href="#"><img src="img/1.jpg"></a>  
+	      <a href="#"><img src="../../assets/img/1.jpg"></a>
 	 </div>
 	  </div>
 	 </div>
@@ -95,7 +95,7 @@
                 <li><a href="scholarships.php">Blog</a></li>
 				<li><a href="forum.php">Details</a></li>
 				<li class="active_1"><a href="pages.php">Pages</a></li>
-				<li><a href="contact.html">Contact</a></li>
+				<li><a href="../../assets/contact.html">Contact</a></li>
 				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"></span>Dropdown<b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li class="t_1"><a href="#">Action</a></li>
@@ -317,7 +317,7 @@
    <div class="page-header">
     <h1>Thumbnails</h1>
   </div>
-  <img src="img/29.jpg" class="img-thumbnail" alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera">
+  <img src="../../assets/img/29.jpg" class="img-thumbnail" alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera">
   <div class="page-header">
     <h1>Labels</h1>
   </div>
@@ -587,7 +587,7 @@
 	<div class="col-sm-3">
 	 <div class="footer_main_1">
 	  <h4>Consectetur Adipiscing</h4>
-       <img src="img/13.jpg">
+       <img src="../../assets/img/13.jpg">
 	   <h5>Dignissim Lacinia Nunc <span class="k_2">Conubia Nostra.</span></h5>
 	 </div>
 	</div>

@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Program</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-	 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-	 <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
-	 <link href="css/ken-burns.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/css/style.css" rel="stylesheet">
+	 <link rel="stylesheet" type="text/css" href="../../assets/css/font-awesome.min.css" />
+	 <link href="../../assets/css/animate.css" rel="stylesheet" type="text/css" media="all">
+	 <link href="../../assets/css/ken-burns.css" rel="stylesheet" type="text/css" media="all" />
 	 <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
 
-   <script src="js/jquery-2.1.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+   <script src="../../assets/js/jquery-2.1.1.min.js"></script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
 
   </head>
 
@@ -47,7 +47,7 @@
 	<div class="container">
 		<div class="header_inner_1">
 			<div >
-				<img align="left" height="150px" width="150px" src="img/ucsc.png">
+				<img align="left" height="150px" width="150px" src="../../assets/img/ucsc.png">
 			</div>
 			<br><br>
 			<ul>
@@ -113,7 +113,7 @@
 	 <div class="col-sm-12 padding_all">
 	  <div class="col-sm-4 padding_all">
 	   <div class="blog_4">
-	    <img src="img/15.jpg" width="100%">
+	    <img src="../../assets/img/15.jpg" width="100%">
 	   </div>
 	  </div>
 	  <div class="col-sm-8">
@@ -164,16 +164,16 @@ Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdi
 	<div class="col-sm-4">
 	 <div class="campus_1">
 	  <h2>Lacinia Arcu</h2>
-	  <img src="img/18.jpg" width="100%">
+	  <img src="../../assets/img/18.jpg" width="100%">
 	  <p>Class aptent taciti sociosqu ad torquent per conubia nostra, per inceptos . Curabitursodales ligula in libero.</p>
 	 </div>
 	 <div class="campus_2">
 	  <h2>Dignissim</h2>
 	  <ul>
-	      <li><a href="#"><img src="img/19.jpg"></a></li>
-		  <li><a href="#"><img src="img/20.jpg"></a></li>
-		  <li><a href="#"><img src="img/21.jpg"></a></li>
-		  <li><a href="#"><img src="img/22.jpg"></a></li>
+	      <li><a href="#"><img src="../../assets/img/19.jpg"></a></li>
+		  <li><a href="#"><img src="../../assets/img/20.jpg"></a></li>
+		  <li><a href="#"><img src="../../assets/img/21.jpg"></a></li>
+		  <li><a href="#"><img src="../../assets/img/22.jpg"></a></li>
 	  </ul>
 	 </div>
 	 <div class="campus_3">
@@ -214,7 +214,7 @@ Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdi
                                 <time datetime="2009-11-13T20:00">Mauris Massa</time>
                             </div>
 							<div class="messages msg_sent_1">
-                             <img src="img/23.jpg" width="100%">
+                             <img src="../../assets/img/23.jpg" width="100%">
                             </div>
                             </div>
                     </div>
@@ -226,7 +226,7 @@ Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdi
                                 <time datetime="2009-11-13T20:00">Mauris Massa</time>
                             </div>
 							<div class="messages msg_sent_1">
-                             <img src="img/24.jpg" width="100%">
+                             <img src="../../assets/img/24.jpg" width="100%">
                             </div>
                             </div> 
                     </div>
@@ -238,7 +238,7 @@ Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdi
                                 <time datetime="2009-11-13T20:00">Mauris Massa</time>
                             </div>
 							<div class="messages msg_sent_1">
-                             <img src="img/25.jpg" width="100%">
+                             <img src="../../assets/img/25.jpg" width="100%">
                             </div>
                             </div> 
                     </div>
@@ -250,7 +250,7 @@ Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdi
                                 <time datetime="2009-11-13T20:00">Mauris Massa</time>
                             </div>
 							<div class="messages msg_sent_1">
-                             <img src="img/26.jpg" width="100%">
+                             <img src="../../assets/img/26.jpg" width="100%">
                             </div>
                             </div>
                     </div>
@@ -262,7 +262,7 @@ Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdi
                                 <time datetime="2009-11-13T20:00">Mauris Massa</time>
                             </div>
 							<div class="messages msg_sent_1">
-                             <img src="img/27.jpg" width="100%">
+                             <img src="../../assets/img/27.jpg" width="100%">
                             </div>
                             </div>
                     </div>
@@ -274,7 +274,7 @@ Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdi
                                 <time datetime="2009-11-13T20:00">Mauris Massa</time>
                             </div>
 							<div class="messages msg_sent_1">
-                             <img src="img/28.jpg" width="100%">
+                             <img src="../../assets/img/28.jpg" width="100%">
                             </div>
                             </div>
                     </div>
@@ -312,7 +312,7 @@ Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdi
  </div>
 </section>
 
-<?php include 'footer.php'?>
+<?php include 'footer.php' ?>
 <script src="js/classie.js"></script>
 <script src="js/cbpAnimatedHeader.js"></script>
 <script type="text/javascript">

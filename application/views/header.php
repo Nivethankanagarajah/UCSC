@@ -15,7 +15,8 @@
                         <div class="col-sm-5">
                             <div align="right" class="header_top_2">
                                 <ul>
-                                    <!-- name of the user here (get from database)-->
+                                    <li><a href="<?php echo base_url();?>">SIGN IN</a></li>
+                                    <li><a href="login.php">SIGN UP</a></li>
                                 </ul>
                             </div>
 
@@ -30,7 +31,7 @@
     <div class="container">
         <div class="header_inner_1">
             <div >
-                <img align="left" height="150px" width="150px" src="../img/ucsc.png">
+                <a href="index.php"><img align="left" height="150px" width="150px" src="<?php echo base_url()."assets/";?>img/ucsc.png"></a>
             </div>
             <br><br>
             <ul>
@@ -43,19 +44,6 @@
         <div class="col-sm-2"></div>
     </div>
 </section>
-<section id="header">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-8">
-                    <div class="header_1">
-                        <nav class="navbar navbar-default" role="navigation">
-                            <!-- Brand and toggle get grouped for better mobile display -->
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                                    <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-                                </button>
-                            </div>
+
 </body>
 </html>
